@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: lime;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, footer {
+    background-color: #333;
+    color: lime;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 2px solid lime;
+    background-color: #111;
+}
+
+h1, h2, h3 {
+    color: lime;
+}
+
+button {
+    background-color: lime;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+pre {
+    display: inline-block;
+    font-family: monospace;
+    white-space: pre;
+    text-align: left;
+  }
